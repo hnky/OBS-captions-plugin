@@ -13,11 +13,12 @@ jobs:
       - task: DownloadPipelineArtifact@2
         inputs:
           project: '4b438742-da7e-4123-8cf4-55564485db7e'
-          pipeline: 6
+          pipelineId: '329'
 
           buildType: 'specific'
+          #definition: '8'
           buildVersionToDownload: 'latestFromBranch'
-          branchName: "refs/heads/windows_obs"
+          #branchName: "refs/heads/windows_obs"
           artifactName: obs_deps_windows
           targetPath: $(Build.SourcesDirectory)/CI/obs_deps/
 
