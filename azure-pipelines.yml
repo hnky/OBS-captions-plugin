@@ -17,7 +17,7 @@ jobs:
 
           buildType: 'specific'
           definition: '8'
-          #buildVersionToDownload: 'latestFromBranch'
+          buildVersionToDownload: 'latestFromBranch'
           branchName: "refs/heads/windows_obs"
           artifactName: obs_deps_windows
           targetPath: $(Build.SourcesDirectory)/CI/obs_deps/
