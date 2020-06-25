@@ -16,9 +16,9 @@ jobs:
           pipelineId: '329'
 
           buildType: 'specific'
-          #definition: '8'
-          buildVersionToDownload: 'latestFromBranch'
-          #branchName: "refs/heads/windows_obs"
+          definition: '8'
+          #buildVersionToDownload: 'latestFromBranch'
+          branchName: "refs/heads/windows_obs"
           artifactName: obs_deps_windows
           targetPath: $(Build.SourcesDirectory)/CI/obs_deps/
 
